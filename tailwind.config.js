@@ -8,7 +8,7 @@ export default {
         'serif': ['Playfair Display', 'serif'],
       },
       backgroundImage: {
-        'wedding': "url('./src/assets/wedding-bg.png')",
+        'wedding': "url('/wedding-bg.png')",
       },
     },
   },
