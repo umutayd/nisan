@@ -7,7 +7,8 @@ import Map from './components/Map';
 function App() {
   return (
     <div className="min-h-screen bg-wedding bg-cover bg-center bg-fixed bg-no-repeat">
-      <div className="min-h-screen bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm flex flex-col items-center px-2 sm:px-4 py-6 sm:py-10">
+      <div className="min-h-screen bg-gradient-to-b from-black/60 to-black/40 backdrop-blur-[2px] 
+                    flex flex-col items-center px-4 sm:px-6 py-6 sm:py-10">
         <div className="container mx-auto flex flex-col items-center justify-center max-w-6xl">
           <Header />
           
@@ -23,8 +24,8 @@ function App() {
             <Map />
           </div>
           
-          <footer className="mt-6 sm:mt-8 text-center px-4">
-            <p className="text-sm sm:text-base text-white/90 leading-relaxed">
+          <footer className="mt-12 sm:mt-16 text-center px-4 py-6 w-full border-t border-white/10">
+            <p className="text-sm sm:text-base text-white/90 leading-relaxed font-light">
               Nur & Umut | Nişanımızda sizleri görmekten mutluluk duyarız
             </p>
           </footer>
