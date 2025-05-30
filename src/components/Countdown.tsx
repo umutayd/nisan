@@ -9,7 +9,7 @@ interface TimeLeft {
 
 const Countdown: React.FC = () => {
   const calculateTimeLeft = (): TimeLeft => {
-    const difference = +new Date('2025-07-14T00:00:00') - +new Date();
+    const difference = +new Date('2025-07-14T19:00:00') - +new Date();
     let timeLeft: Partial<TimeLeft> = {};
 
     if (difference > 0) {
