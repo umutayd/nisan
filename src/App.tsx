@@ -7,15 +7,26 @@ import Map from './components/Map';
 function App() {
   return (
     <div className="min-h-screen bg-wedding bg-cover bg-center bg-fixed bg-no-repeat">
-      <div className="min-h-screen bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm flex flex-col items-center px-4 py-10">
-        <div className="container mx-auto flex flex-col items-center justify-center">
+      <div className="min-h-screen bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm flex flex-col items-center px-2 sm:px-4 py-6 sm:py-10">
+        <div className="container mx-auto flex flex-col items-center justify-center max-w-6xl">
           <Header />
-          <LocationInfo />
-          <Countdown />
-          <Map />
           
-          <footer className="mt-4">
-            <p>Nur & Umut | Nişanımızda sizleri görmekten mutluluk duyarız</p>
+          <div className="w-full max-w-lg sm:max-w-2xl">
+            <LocationInfo />
+          </div>
+          
+          <div className="w-full flex justify-center">
+            <Countdown />
+          </div>
+          
+          <div className="w-full max-w-sm sm:max-w-4xl px-2 sm:px-0">
+            <Map />
+          </div>
+          
+          <footer className="mt-6 sm:mt-8 text-center px-4">
+            <p className="text-sm sm:text-base text-white/90 leading-relaxed">
+              Nur & Umut | Nişanımızda sizleri görmekten mutluluk duyarız
+            </p>
           </footer>
         </div>
       </div>
